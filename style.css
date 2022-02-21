@@ -5,5 +5,8 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    width: 782px;
+    /* display: flex; */
+    margin: auto;
 }
  
