@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comforter&family=Dongle:wght@300&family=Open+Sans:wght@300&family=Outfit:wght@300;400&family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+    <style>
+        .header{
+            height: 90px;
+            /* border: 1px solid black; */
+            /* background-color: #71aef0; */
+            background-color: #e8b762;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(255, 255, 255);
+        }
+        .container_1{
+            height: 500px;
+            /* border: 1px solid rgb(240, 42, 42); */
+        }
+        .container_1 .content_1{
+            height: 100%;
+            width: 40%;
+            /* border: 1px solid rgb(89, 31, 248); */
+            /* background-color: rgb(53, 241, 68); */
+            float: left;
+            overflow: hidden;
+        }
+        .container_1 .content_1 .subcontent_A{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 40%;
+            /* border: 1px solid rgb(89, 31, 248); */
+            background-color: #e04b5a;
+        }
+        .container_1 .content_1 .subcontent_B{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 60%;
+            /* border: 1px solid rgb(255, 0, 119); */
+            background-color: #e49756;
+        }
+        .container_1 .content_2{
+            height: 99.99%;
+            width: 59.99%;
+            /* border: 1px solid rgb(93, 247, 5); */
+            /* background-color: rgb(221, 26, 26); */
+            overflow: hidden;
+        }
+        .container_1 .content_2 .subcontent_C{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 70%;
+            /* border: 1px solid rgb(255, 0, 119); */
+            background-color: #9a4c68;
+        }
+        .container_1 .content_2 .subcontent_D{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 30%;
+            /* border: 1px solid rgb(255, 0, 119); */
+            background-color: #5b305a;
+        }
+        .container_2 {
+            height: 170px;
+            border: 1px solid black;
+            display: flex;
+        }
+        .container_2 .content_X{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:  85%;
+            background-color: #c46352;
+           
+        }
+        .container_2 .content_Y{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:  65%;
+            background-color: #804d3a;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+            background-color: #412525;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="container_1">
+        <div class="content_1">
+            <div class="subcontent_A">
+                <h1 style="color: rgb(224, 230, 235);">Hero</h1>
+            </div>
+            <div class="subcontent_B">
+                <h1 style="color: rgb(222, 230, 236);">SideBar</h1>
+            </div>
+        </div>
+        <div class="content_2">
+            <div class="subcontent_C"><h1 style="color: aliceblue;">Main content</h1></div>
+            <div class="subcontent_D"><h1 style="color: rgb(225, 232, 238);">Extra Content</h1></div>
+        </div>
+    </div>
+
+    <div class="container_2">
+        <div class="content_X"><h1 style="color: rgb(213, 221, 228);">Related Images</h1></div>
+        <div class="content_Y"><h1 style="color: rgb(216, 216, 216);">Related Posts</h1></div>
+    </div>   
+
+    <div class="footer">
+        <h2 style="color: rgb(194, 204, 212);font-size: 25px;">Footer</h2>
+    </div>
+
+
+</body>
+</html>
